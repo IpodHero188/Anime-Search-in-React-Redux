@@ -6,7 +6,9 @@
     "axios": "^0.18.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,7 +31,9 @@
     "cz-conventional-changelog": "^2.1.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
   },
   "config": {
     "commitizen": {
