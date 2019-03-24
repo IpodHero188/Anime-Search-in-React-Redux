@@ -22,7 +22,7 @@ export default class SearchBar extends Component {
     render() {
         return (
             <div className="input-group mb-3">
-                <input id="animeSearch" type="text" className="form-control" placeholder="Anime" 
+                <input id="animeSearch" type="text" className="form-control" placeholder="Anime!!" 
                         aria-label="Default" aria-describedby="inputGroup-sizing-default" 
                         onChange={this.handleInputChange}/>
                 <div className="input-group-append">

@@ -26,8 +26,14 @@
   ],
   "devDependencies": {
     "babel-jest": "^23.6.0",
+    "cz-conventional-changelog": "^2.1.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "jest": "^23.6.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
