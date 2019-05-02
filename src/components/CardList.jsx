@@ -3,6 +3,9 @@ import Card from '../components/Card';
 
 //TODO: Convert to functional class
 export default class CardList extends Component {
+    constructor(props){
+        super(props);
+    }
 
     render(){
         return (

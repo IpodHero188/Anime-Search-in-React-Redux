@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from '../css/App.css';
 import SearchBar from './SearchBar';
 import {searchAnime} from '../clients/ApiClient';
+import CardList from './CardList';
 
 class App extends Component {
 constructor(props){
@@ -12,9 +13,12 @@ constructor(props){
 }
 
 storeSearchTerm = term => {
-  //TODO: parse out the list to get the data
-  const list = searchAnime(term);
-  this.setState({searchTerm: term, searchResults: list});
+  let resList = [];
+  searchAnime(term)
+  .then(response => {
+    resList = response.data.data;
+    this.setState({searchTerm: term, searchResults: resList});
+  })
 }
 
   render() {
