@@ -1,6 +1,8 @@
 ## Project Goal
 
-This project is a simple Anime Search page
+This project is a simple Anime Search page. 
+
+The goal of this project is to get accustomed ReactJS
 
 ## Available Scripts
 
